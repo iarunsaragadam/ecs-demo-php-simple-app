@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Simple PHP App</h1>
                 <h2>Congratulations</h2>
-                <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
+                Testing the creation of containers.
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
